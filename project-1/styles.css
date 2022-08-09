@@ -1,0 +1,91 @@
+:root {
+    --light: rgb(240,240,240);
+    --dark: rgb(20, 20, 20);
+    --purple: rgb(127, 100, 161);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--light);
+}
+
+#header, #main {
+    width: 400px;
+    margin: 25px auto;
+}
+
+#header {
+    background-color: var(--light);
+    color: var(--dark);
+    text-align: center;
+}
+
+#main {
+    background-color: var(--purple);
+    color: var(--light);
+    border-radius: 10px;
+    box-shadow: 0 2px 3px 1px rgb(150, 150, 150);
+}
+
+#description {
+    margin: 20px 0;
+    font-style: italic;
+}
+
+#survey-form {
+    padding: 20px;
+}
+
+.form-group {
+    margin: 20px 0;
+}
+
+.form-group > label {
+    display: block;
+}
+
+#name-label,
+#email-label,
+#number-label,
+#dropdown-label,
+#comments-label,
+.form-group > p {
+    margin-bottom: 10px;
+}
+
+#name,
+#email,
+#number,
+#dropdown,
+#comments {
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+.would-you-recommend-option,
+.what-would-you-like-to-see-option {
+    margin: 7px 0;
+}
+
+#comments {
+    height: 80px;
+}
+
+#submit {
+    background-color: var(--light);
+    color: var(--dark);
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+}

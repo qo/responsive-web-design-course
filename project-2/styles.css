@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+html {
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 720px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    text-align: center;
+}
+
+#main {
+    color: #333;
+    background-color: #EEE;
+    margin: 5% 10%;
+    border-radius: 5px
+}
+
+#title {
+    font-weight: 700;
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+#subtitle {
+    font-size: 1.2rem;
+}
+
+#title,
+#subtitle {
+    margin: 10px auto;
+}
+
+#img-div {
+    background-color: white;
+    margin: 0 2%;
+    text-align: center;
+}
+
+#image {
+    width: 95%;
+}
+
+#img-caption {
+    font-size: 1rem;
+    width: 95%;
+    margin: 10px auto;
+    padding-bottom: 10px;
+}
+
+#tribute-info {
+    font-size: 1rem;
+    margin: 5% 25%;
+}
+
+#tribute-info-headline {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 20px auto;
+}
+
+#tribute-info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#tribute-info-list > li {
+    font-size: 1rem;
+    text-align: left;
+}
+
+.year {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#quote-div {
+    margin: 20px -15px;
+    font-style: italic;
+    text-align: left;
+}
+
+#resources {
+    margin: 5% 25%;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+
+#tribute-link {
+    color: #74638f;
+}
